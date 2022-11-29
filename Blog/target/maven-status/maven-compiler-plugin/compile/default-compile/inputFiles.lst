@@ -1,5 +1,6 @@
 E:\springboot\MyBlog\Blog\src\main\java\com\blog\BlogApplication.java
 E:\springboot\MyBlog\Blog\src\main\java\com\blog\controller\CategoryController.java
+E:\springboot\MyBlog\Blog\src\main\java\com\blog\controller\CommentController.java
 E:\springboot\MyBlog\Blog\src\main\java\com\blog\filter\JwtAuthenticationTokenFilter.java
 E:\springboot\MyBlog\Blog\src\main\java\com\blog\controller\LinkController.java
 E:\springboot\MyBlog\Blog\src\main\java\com\blog\controller\ArticleController.java

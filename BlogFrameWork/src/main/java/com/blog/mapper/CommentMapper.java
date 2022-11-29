@@ -2,6 +2,7 @@ package com.blog.mapper;
 
 import com.blog.domain.Comment;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
 * @author xyxiaobiao
@@ -9,6 +10,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 * @createDate 2022-11-29 16:40:33
 * @Entity com.blog.domain.Comment
 */
+@Mapper
 public interface CommentMapper extends BaseMapper<Comment> {
 
 }

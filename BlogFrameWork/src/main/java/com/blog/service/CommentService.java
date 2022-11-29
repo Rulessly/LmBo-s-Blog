@@ -2,6 +2,7 @@ package com.blog.service;
 
 import com.blog.domain.Comment;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.blog.domain.ResponseResult;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -12,4 +13,5 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface CommentService extends IService<Comment> {
 
+    ResponseResult commentList(Long articleId, Integer pageNum, Integer pageSize);
 }
